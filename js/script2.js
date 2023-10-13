@@ -1,4 +1,5 @@
 const ArrayNum =[];
+const Array5Num=[];
 
 bottone = document.getElementById('button');
 risultato = document.getElementById('risultatoNum');
@@ -12,9 +13,15 @@ bottone.addEventListener('click', function(){
         ArrayNum.push(randNum);
      }
      console.log(ArrayNum);
-     risultato.innerHTML = `
-        ecco il tuo Array : ${ArrayNum}     
-     `;
+
+     for(let j = ArrayNum.length - 1;j>= ArrayNum.length-5;j--){
+        Array5Num.push(ArrayNum[j]);
+        
+     }
+     console.log(Array5Num);
+      risultato.innerHTML = `
+         ecco il tuo Array : ${Array5Num}     
+      `;
 });
 
 

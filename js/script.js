@@ -33,7 +33,7 @@ lista.innerHTML = `
 
 if(presente === true){
     console.log('facciamolo');
-    risp.innerText = 'Trovato! Devo solo preparare i cocktail';
+    risp.innerText = 'Trovato! Devo solo preparare il cocktail';
 
 }else{
     console.log('spesa');

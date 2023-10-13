@@ -14,7 +14,7 @@ bottone.addEventListener('click', function(){
      }
      console.log(ArrayNum);
 
-     for(let j = ArrayNum.length - 1;j>= ArrayNum.length-5;j--){
+     for(let j = ArrayNum.length-5;j <= ArrayNum.length - 1;j++){
         Array5Num.push(ArrayNum[j]);
         
      }

@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Coda Array</title>
 </head>
-<body>
-    <button class="btn"><a href="../index.html" class="text-decoration-none">Go Back</a></button>
+<body id="body-3">
+    <button class="btn btn-light m-2"><a href="../index.html" class="text-decoration-none text-black">Go Back</a></button>
+    <div class="wrapper position-absolute d-flex flex-column justify-content-center align-items-center align-content-center ">
+        <div class="container  my-bg-white p-3 w-50  rounded-4 text-center">
     <h1>Coda Array</h1>
-    <label for="numero">quanti numeri dovra contenere l'array?</label>
-    <input type="number" id="numero">
-    <button id="button" class="btn">invia</button>
+    <div class=" d-flex flex-column justify-content-center align-content-center align-items-center">
+    <label for="numero" class="form-label fs-4">quanti numeri dovra contenere l'array?</label>
+    <input type="number" id="numero" min="1" class="form-control w-25 m-2">
+    <button id="button" class="btn btn-danger w-25">invia</button>
+</div>
     <br>
-    <div id="risultatoNum"></div>
+    <div id="risultatoNum" class="fs-5"></div>
+
+</div>
+</div>
 
     <script src="../js/utility.js"></script>
     <script src="../js/script2.js"></script>

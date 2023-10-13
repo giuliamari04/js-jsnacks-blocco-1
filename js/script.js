@@ -28,6 +28,8 @@ for(let i=0; i < ingredienti.length;i++){
     }
 }
 lista.innerHTML = `
+    Ecco cosa abbiamo nel frigo :
+    </br>
     ${listEl}
 `;
 
